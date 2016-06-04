@@ -1,0 +1,114 @@
+[class^="span-"] {
+	float:left;
+	display: block;
+}
+
+.span-1 {
+	width: 8.3333333333333333%;
+}
+
+.span-2 {
+	width: 16.6666666666666667%;
+}
+
+.span-3 {
+	width: 25%;
+}
+
+.span-4 {
+	width: 33.3333333333333333%;
+}
+
+.span-5 {
+	width: 41.6666666666666667%;
+}
+
+.span-6 {
+	width: 50%;
+}
+
+.span-7 {
+	width: 58.3333333333333333%;
+}
+
+.span-8 {
+	width: 66.6666666666666667%;
+}
+
+.span-9 {
+	width: 75%;
+}
+
+.span-10 {
+	width: 83.3333333333333333%;
+}
+
+.span-11 {
+	width: 91.6666666666666667%;
+}
+
+.span-12 {
+	width: 100%;
+}
+
+/*  Start with Gutters */
+/* 52.5px
+   30px gutter            */
+
+[class^="m-span"] {
+	float: left;
+	display: block;
+	margin-left: 3.125%;
+}
+
+[class^="m-span"]:first-child {
+	margin-left: 0;
+}
+
+.m-span-1 {
+	width: 5.46875%;
+}
+
+.m-span-2 {
+	width: 14.0625%;
+}
+
+.m-span-3_to_6,
+.m-span-3 {
+	width: 22.65625%;
+}
+
+.m-span-4_to_6,
+.m-span-4_no_resize,
+.m-span-4 {
+	width: 31.25%;
+}
+
+.m-span-5 {
+	width: 39.84375%;
+}
+
+.m-span-6_no_resize,
+.m-span-6 {
+	width: 48.4375%;
+}
+
+.m-span-7 {
+	width: 57.03125%;
+}
+
+.m-span-8 {
+	width: 65.625%;
+}
+
+.m-span-9 {
+	width: 74.21875%;
+}
+
+.m-span-10 {
+	width: 82.8125%;
+}
+
+.m-span-11 {
+	width: 91.40625%;
+}
