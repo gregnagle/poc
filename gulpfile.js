@@ -18,7 +18,7 @@ gulp.task('sync', function(){
     browserSync.init({
         server: './',
         notify: false,
-        browser: "google chrome canary"
+        browser: "google chrome"
     });
 
     gulp.watch('scss/*.scss', ['sassy']);
