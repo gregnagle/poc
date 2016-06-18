@@ -25,6 +25,37 @@
   background-image: url('../assets/img/bg-header.jpg');
   background-position: center center;
   background-size: cover;
+
+
+  .left-side,
+  .right-side {
+    position: absolute;
+    color: $offwhite;
+    font-family: "museo-sans-rounded",sans-serif;
+    letter-spacing: 0.5rem;
+    top: 55%;
+  }
+  .left-side {
+    left: -1px;
+    transform: translatey(-50%) rotate(270deg);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .right-side {
+    right: -14px;
+    transform: translateY(-50%) rotate(90deg);
+    font-weight: 200;
+    font-size: 0.75rem;
+  }
+
+  .main-logo {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 200px;
+    width: 200px;
+  }
 }
 
 .about-section {
@@ -37,7 +68,7 @@
 
   .content-wrap {
     width: 50%;
-    padding: 20px;
+    padding: 25px;
     background-color: $blue;
   }
 

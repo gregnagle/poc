@@ -551,6 +551,16 @@ img {
   display: table;
   clear: both; }
 
+.menu {
+  z-index: 999;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 30px;
+  background-color: #b4dbbf; }
+
 .landing {
   position: relative; }
   .landing:before {
@@ -570,6 +580,30 @@ img {
   background-image: url("../assets/img/bg-header.jpg");
   background-position: center center;
   background-size: cover; }
+  .fullpage-header .left-side,
+  .fullpage-header .right-side {
+    position: absolute;
+    color: #e5e5e5;
+    font-family: "museo-sans-rounded",sans-serif;
+    letter-spacing: 0.5rem;
+    top: 55%; }
+  .fullpage-header .left-side {
+    left: -1px;
+    transform: translatey(-50%) rotate(270deg);
+    font-weight: 400;
+    font-size: 1rem; }
+  .fullpage-header .right-side {
+    right: -14px;
+    transform: translateY(-50%) rotate(90deg);
+    font-weight: 200;
+    font-size: 0.75rem; }
+  .fullpage-header .main-logo {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 200px;
+    width: 200px; }
 
 .about-section {
   position: relative;
@@ -582,7 +616,7 @@ img {
   background-color: #e0e0e0; }
   .about-section .content-wrap {
     width: 50%;
-    padding: 20px;
+    padding: 25px;
     background-color: #353f55; }
   .about-section .contextual {
     padding: 50px;
