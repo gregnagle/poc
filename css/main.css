@@ -552,8 +552,7 @@ img {
   clear: both; }
 
 .landing {
-  position: relative;
-  padding-bottom: 100px; }
+  position: relative; }
   .landing:before {
     content: "";
     position: absolute;
@@ -583,7 +582,7 @@ img {
   background-color: #e0e0e0; }
   .about-section .content-wrap {
     width: 50%;
-    padding: 25px;
+    padding: 20px;
     background-color: #353f55; }
   .about-section .contextual {
     padding: 50px;
@@ -626,13 +625,41 @@ img {
     background-position: top right;
     background-size: cover; }
   .about-section .butt {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 50px 0 25px 0;
-    height: 50px;
-    width: 250px;
-    background-color: #e5e5e5; }
+    margin: 50px 0 25px 0; }
+
+.butt {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 250px;
+  background-color: #e5e5e5; }
+
+.quote {
+  width: 500px;
+  margin: 0 auto 50px auto;
+  padding: 25px 0;
+  text-align: center; }
+  .quote h1 {
+    font-family: "essonnes-display",sans-serif;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 400; }
+    .quote h1 span {
+      color: #B46357;
+      font-size: 3.5rem;
+      font-weight: 700; }
+
+.work {
+  position: relative;
+  background-image: url("../assets/img/imgFooter.jpg");
+  background-position: top center;
+  background-size: cover;
+  padding: 175px 0 50px 0; }
+
+.footer {
+  height: 600px;
+  background-color: #b4dbbf; }
 
 @media only screen and (max-width: 960px) {
   .about-section {

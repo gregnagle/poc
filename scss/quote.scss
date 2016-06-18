@@ -1,0 +1,19 @@
+.quote {
+  width: 500px;
+  margin: 0 auto 50px auto;
+  padding: 25px 0;
+  text-align: center;
+  h1 {
+    font-family: "essonnes-display",sans-serif;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 400;
+    span {
+      color: $red;
+      font-size: 3.5rem;
+      font-weight: 700;
+    }
+  }
+
+
+}
